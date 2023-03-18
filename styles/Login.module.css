@@ -1,0 +1,30 @@
+.page{
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+.header{
+  display: flex;
+  justify-content:flex-end;
+}
+.btn{
+  background-color: blueviolet;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 16px;
+  border-radius: 5px;
+}
+.btn:active{
+  background-color: rgb(66, 30, 100);
+}
+.btnDis{
+  background-color: rgb(140, 101, 177);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 16px;
+  border-radius: 5px;
+}

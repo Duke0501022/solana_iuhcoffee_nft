@@ -8,12 +8,6 @@
 }
 
 /* Set core body defaults */
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-  padding-bottom: 250px;
-}
 
 /* Inherit fonts for inputs and buttons */
 input,
@@ -34,7 +28,6 @@ body {
   background: var(--background-color);
   font-family: "Inter", sans-serif;
   color: var(--white);
-  display: flex;
   margin: 0;
   text-align: center;
 }
